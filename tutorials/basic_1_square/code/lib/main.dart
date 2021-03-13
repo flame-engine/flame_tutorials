@@ -10,7 +10,7 @@ void main() {
 
 class MyGame extends Game {
   static const int square_speed = 400;
-  Rect squarePos;
+  late Rect squarePos;
   int squareDirection = 1;
 
   @override
