@@ -56,7 +56,7 @@ To process the logic of the game, we use the `update` method, which is ran alway
 
 To render the frame, we use the `render` method, this method receives a single argument which is an instance of a `dart:ui` `Canvas` class. With that instance we can basically render anything we want. It is important to not that in this method, we should only contain render logic, any game logic should be put in the `update` method.
 
-Now that we have a better understanding of how the game structures works, lets start to plan our game.
+Now that we have a better understanding of how the game structure works, lets start to plan our game.
 
 First things first, lets think on what variables and data structure we would need. For that, lets recap what we are building: A simple game where a square keeps bouncing forever from one side of the screen to the other. Thinking on this, we will need:
 
