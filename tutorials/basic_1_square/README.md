@@ -50,7 +50,7 @@ Flame's `Game` class is an implementation of a Game Loop, which the basic struct
  - 2: Process the logic for the next frame
  - 3: Render the frame.
 
-On this tutorial we will focus the steps two and three.
+In this tutorial we will focus on both step two and three.
 
 To process the logic of the game, we use the `update` method, which is ran always before the frame is rendered and receives a single argument, a `double` value called `dt` (delta time), which is the ammout os seconds from the current iteration and the last one. This delta time is very important so we can always know how to correct calculate movement, animations and etc.
 
