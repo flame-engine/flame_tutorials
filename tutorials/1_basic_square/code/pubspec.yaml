@@ -1,8 +1,6 @@
-name: code
+name: basic_square
 description: Example code for the the tutorial (Basic Rendering a simple square on the screen)
 
-
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
@@ -13,7 +11,6 @@ dependencies:
   flame: 1.0.0-rc8
   flutter:
     sdk: flutter
-
 
   cupertino_icons: ^1.0.2
 

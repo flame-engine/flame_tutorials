@@ -3,13 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:flame/game.dart';
 
 void main() {
-  runApp(GameWidget(
-    game: MyGame(),
-  ));
+  final myGame = MyGame();
+  runApp(
+    GameWidget(
+      game: myGame,
+    ),
+  );
 }
 
 class MyGame extends Game {
-  static const int square_speed = 400;
+  static const int squareSpeed = 400;
   late Rect squarePos;
   int squareDirection = 1;
 
@@ -20,7 +23,7 @@ class MyGame extends Game {
 
   @override
   void update(double dt) {
-    squarePos = squarePos.translate(square_speed * squareDirection * dt, 0);
+    squarePos = squarePos.translate(squareSpeed * squareDirection * dt, 0);
 
     if (squareDirection == 1 && squarePos.right > size.x) {
       squareDirection = -1;
