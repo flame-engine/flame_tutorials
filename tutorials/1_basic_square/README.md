@@ -59,7 +59,7 @@ In this tutorial we will focus on both step two and three.
 
 To process the logic of the game, we use the `update` method, which always runs before the frame is rendered and receives a single argument, a `double` value called `dt` (delta time), which is the amount of seconds between the current iteration and the last one. This delta time is very important so we can always know how to correctly calculate the speed of movement, animations and etc.
 
-To render the frame, we use the `render` method, this method receives a single argument which is an instance of a `dart:ui` `Canvas` class. With that instance we can basically render anything we want. It is important to not have any game logic in this method, we should only contain render instructions, any game logic should be put in the `update` method.
+To render the frame, we use the `render` method, this method receives a single argument which is an instance of a `dart:ui` `Canvas` class. With that instance we can basically render anything we want. It is important to not have any game logic in this method, it should only contain render instructions, any game logic should be put in the `update` method.
 
 Now that we have a better understanding of how the game structure works, lets start to plan our game.
 
