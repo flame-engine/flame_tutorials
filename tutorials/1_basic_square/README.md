@@ -130,7 +130,7 @@ You may now be seeing a static white square being rendered on the top left corne
     // It is important to remember that the result of the execution of this method,
     // must be the game state (in our case our rect, direction variabables) updated to be
     // consistent of how it should be after the amount of time stored on the dt variable,
-    // that way you game will always run smooth and  consistent even when a FPS drop or peak happen.
+    // that way your game will always run smooth and consistent even when a FPS drop or peak happen.
     //
     // To exemplify that, if our square moves at 200 logical pixels per second, and half a second
     // has passed, our square should have moved 100 logical pixels on this iteration
