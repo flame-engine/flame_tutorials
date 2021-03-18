@@ -4,7 +4,7 @@ This tutorial will introduce you to:
 
  - `Game`: The basic class to build a game on, you will understand its structure and how to use it to build a simple game
  - `GameWidget`: The widget used to place your game on your Flutter widget tree
- - Basic rendering: You will get introduced to the basics of using `dart:ui` class `Canvas` which is the class which Flame uses for rendering your game.
+ - Basic rendering: You will get introduced to the basics of using the `Canvas` class from `dart:ui` which is the class that Flame uses for rendering your game.
 
 All the code of this tutorial code can be found [here](./code) and is based on the Flame `1.0.0-rc8` version.
 
