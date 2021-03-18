@@ -6,7 +6,7 @@ This tutorial will introduce you to:
  - `GameWidget`: The widget used to place your game on your widget tree
  - Basic rendering: You will get introduced to the basics of using `dart:ui` class `Canvas` which is the class which Flame uses for rendering your game.
 
-All the code of this tutorial code can be found [here](./code) and is based on Flame `1.0.0-rc8` version.
+All the code of this tutorial code can be found [here](./code) and is based on the Flame `1.0.0-rc8` version.
 
 By the end of this tutorial you will have built a simple game that renders a square bouncing on the screen that will look like this:
 
