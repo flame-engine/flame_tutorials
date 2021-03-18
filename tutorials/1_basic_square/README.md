@@ -49,7 +49,7 @@ That is it! If you run this, you will see just an empty black screen for now, bu
 
 Before going further, it is important to explain what those two methods mean.
 
-Flame's `Game` class is an implementation of a Game Loop, which the basic structure on which most games are built on. It is called a Game Loop because it really works as an infinite loop that will continue to iterate as long as the game is running. This loop can be categorized as followed:
+Flame's `Game` class is an implementation of a Game Loop, which the basic structure on which most games are built on. It is called a Game Loop because it really works as an infinite loop that will continue to iterate as long as the game is running. The loop goes through the following steps:
 
  - 1: Take input from the player
  - 2: Process the logic for the next frame
