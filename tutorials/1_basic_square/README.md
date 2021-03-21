@@ -125,7 +125,7 @@ You may now be seeing a static white square being rendered on the top left corne
     // Here we move our square by applying our iteration delta time (dt) to our
     // speed variable and direction. Note that the Rect class is immutable
     // and the translate method returns a new Rect instance for us, so we just
-    // re assign it to our square variable
+    // re-assign it to our square variable
     //
     // It is important to remember that the result of the execution of this method,
     // must be the game state (in our case our rect, direction variabables) updated to be
