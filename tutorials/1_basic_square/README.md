@@ -91,7 +91,7 @@ class MyGame extends Game {
   int squareDirection = 1;
 
   // The onLoad method is where all of the game initialization is supposed to go
-  // for this example, you may think that this square could just be initialized on the field
+  // For this example, you may think that this square could just be initialized on the field
   // declaration, and you are right, but for learning purposes and to present the life cycle method
   // for this example we will be initializing this field here.
   @override
