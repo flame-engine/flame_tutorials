@@ -63,7 +63,7 @@ To render the frame, we use the `render` method, this method receives a single a
 
 Now that we have a better understanding of how the game structure works, lets start to plan our game.
 
-So, lets think on what variables and data structure we would need. For that, lets recap what we are building: A simple game where a square keeps bouncing forever from one side of the screen to the other. Thinking on this, we will need:
+So, lets think on what variables and data structure we would need. For that, lets recap what we are building: A simple game where a square keeps bouncing forever from one side of the screen to the other. Thinking about this, we will need:
 
  - A constant to tell us the speed of the square in logical pixels per second.
  - A variable to inform which direction the square is moving.
