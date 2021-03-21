@@ -66,7 +66,7 @@ Now that we have a better understanding of how the game structure works, lets st
 So, lets think on what variables and data structure we would need. For that, lets recap what we are building: A simple game where a square keeps bouncing forever from one side of the screen to the other. Thinking about this, we will need:
 
  - A constant to tell us the speed of the square in logical pixels per second.
- - A variable to inform which direction the square is moving.
+ - A variable to keep track of which direction the square is moving.
  - A structure to represent our square, which has a position and dimensions.
 
 With that in mind, check the example below, note the comments for explanations on each code section.
