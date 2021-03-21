@@ -111,7 +111,7 @@ Right, now we have all the data and variables we need to start implementing our 
     // Canvas is a class from dart:ui and is it responsible for all the rendering inside of Flame
     //
     // BasicPalette is a help class from Flame, which provides default, pre built instances
-    // of Paints that can be used by your game
+    // of Paint that can be used by your game
     canvas.drawRect(squarePos, BasicPalette.white.paint);
   }
 }
