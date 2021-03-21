@@ -1,0 +1,18 @@
+name: basic_square
+description: Example code for the the tutorial (Basic Rendering a simple square on the screen)
+
+version: 1.0.0+1
+
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flame: 1.0.0-rc8
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
