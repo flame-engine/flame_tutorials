@@ -123,7 +123,7 @@ You may now be seeing a static white square being rendered on the top left corne
   @override
   void update(double dt) {
     // Here we move our square by applying our iteration delta time (dt) to our
-    // speed variable and direction. Note that the Rect class class is immutable
+    // speed variable and direction. Note that the Rect class is immutable
     // and the translate method returns a new Rect instance for us, so we just
     // re assign it to our square variable
     //
