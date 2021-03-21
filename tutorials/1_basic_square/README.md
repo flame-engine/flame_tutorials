@@ -108,7 +108,7 @@ Right, now we have all the data and variables we need to start implementing our 
 ```dart
   @override
   void render(Canvas canvas) {
-    // Canvas is a class from dart:ui and is reponsible for all the renderings on Flame
+    // Canvas is a class from dart:ui and is it responsible for all the rendering inside of Flame
     //
     // BasicPalette is a help class from Flame, which provides default, pre built instances
     // of Paints that can be used by your game
