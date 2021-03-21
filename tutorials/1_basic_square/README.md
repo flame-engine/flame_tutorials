@@ -20,7 +20,7 @@ For more complex games, you will probably want to use `BaseGame`, which has a lo
 
 `GameWidget` is, like the name suggests, a Flutter widget that will run your game and place it inside the Flutter widget tree.
 
-As a first step, lets just get a Game instance running, for that we will need to create our own class that extends Flame's Game class, implement its methods, and pass an instance of that Game to a GameWidget. Something like this:
+As a first step, lets just get a Game instance running. For that, we will need to create our own class that extends Flame's Game class, implement its methods, and pass an instance of that Game to a GameWidget. Something like this:
 
 ```dart
 import 'package:flutter/material.dart';
