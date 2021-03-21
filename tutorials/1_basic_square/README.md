@@ -39,7 +39,6 @@ class MyGame extends Game {
   @override
   void update(double dt) { /* TODO */ }
 
-
   @override
   void render(Canvas canvas) { /* TODO */ }
 }
