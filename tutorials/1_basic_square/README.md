@@ -38,14 +38,14 @@ void main() {
 class MyGame extends Game {
   @override
   void update(double dt) { /* TODO */ }
- }
+
 
   @override
   void render(Canvas canvas) { /* TODO */ }
 }
 ```
 
-That is it! If you run this, you will see just an empty black screen for now, but now we have the bare bones needed to start implementing our game.
+That is it! If you run this, you will see just an empty black screen for now, but now we have the bare-bones needed to start implementing our game.
 
 Before going further, it is important to explain what those two methods mean.
 
@@ -106,13 +106,17 @@ class MyGame extends Game {
 Right, now we have all the data and variables we need to start implementing our game. For the next step, lets draw our little square on the screen.
 
 ```dart
+class MyGame extends Game {
+  // BasicPalette is a help class from Flame, which provides default, pre built instances
+  // of Paint that can be used by your game
+  static final squarePaint = BasicPalette.white.paint;
+
+  // Update mehod ommited
+
   @override
   void render(Canvas canvas) {
     // Canvas is a class from dart:ui and is it responsible for all the rendering inside of Flame
-    //
-    // BasicPalette is a help class from Flame, which provides default, pre built instances
-    // of Paint that can be used by your game
-    canvas.drawRect(squarePos, BasicPalette.white.paint);
+    canvas.drawRect(squarePos, squarePaint);
   }
 }
 ```
@@ -122,7 +126,8 @@ You may now be seeing a static white square being rendered on the top left corne
 ```dart
   @override
   void update(double dt) {
-    // Here we move our square by applying our iteration delta time (dt) to our
+    // Here we move our square by calculating our movement using
+    // the iteration delta time and our speed variable and direction.
     // speed variable and direction. Note that the Rect class is immutable
     // and the translate method returns a new Rect instance for us, so we just
     // re-assign it to our square variable
@@ -149,5 +154,7 @@ You may now be seeing a static white square being rendered on the top left corne
     }
   }
 ```
+
+If we run our game again, we should see our little square bouncing off like we wanted from the beginning.
 
 And that is it for this basic tutorial, in which we have covered the basics of Flame, its basic classes and some basic rendering. From that we can start to build more complex things and more exciting games.

@@ -15,6 +15,7 @@ class MyGame extends Game {
   static const int squareSpeed = 400;
   late Rect squarePos;
   int squareDirection = 1;
+  static final squarePaint = BasicPalette.white.paint;
 
   @override
   Future<void> onLoad() async {
@@ -34,6 +35,6 @@ class MyGame extends Game {
 
   @override
   void render(Canvas canvas) {
-    canvas.drawRect(squarePos, BasicPalette.white.paint);
+    canvas.drawRect(squarePos, squarePaint);
   }
 }
