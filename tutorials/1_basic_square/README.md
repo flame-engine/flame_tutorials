@@ -103,7 +103,7 @@ class MyGame extends Game {
 }
 ```
 
-Right, now we have all the data and variables we need to start implementing our game, for the next step, lets just draw our little square on the screen.
+Right, now we have all the data and variables we need to start implementing our game. For the next step, lets draw our little square on the screen.
 
 ```dart
   @override
