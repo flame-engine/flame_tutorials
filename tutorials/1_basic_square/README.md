@@ -18,7 +18,7 @@ By the end of this tutorial you will have built a simple game that renders a squ
 
 For more complex games, you will probably want to use `BaseGame`, which has a lot of utilities that will make your life easier. We will cover that on later tutorials, for this one the `Game` class will be enough for the concepts that you will learn here.
 
-`GameWidget` is, like its name suggest, a Flutter widget that will run your game and place it inside the Flutter widget tree.
+`GameWidget` is, like the name suggests, a Flutter widget that will run your game and place it inside the Flutter widget tree.
 
 As a first step, lets just get a Game instance running, for that we will need to create our own class that extends Flame's Game class, implement its methods, and pass an instance of that Game to a GameWidget. Something like this:
 
