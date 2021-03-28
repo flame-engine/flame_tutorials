@@ -138,7 +138,7 @@ You may now be seeing a static white square being rendered on the top left corne
     //
     // To illustrate this, if our square moves at 200 logical pixels per second, and half a second
     // has passed, our square should have moved 100 logical pixels on this iteration
-    squarePos = squarePos.translate(square_speed * squareDirection * dt, 0);
+    squarePos = squarePos.translate(squareSpeed * squareDirection * dt, 0);
 
     // This simple condition verifies if the square is going right, and has reached the end of the screen
     // if so, we just invert our direction
